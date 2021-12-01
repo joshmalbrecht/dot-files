@@ -1,4 +1,3 @@
-
 ### Load bashrc ###
 if [ -f ~/.bashrc ]; then
    source ~/.bashrc
