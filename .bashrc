@@ -25,6 +25,5 @@ alias ....='cd ..; cd ..; cd ..'
 
 ### Maven Aliases ###
 alias mci='mvn clean install'
-
-
-
+alias mcis='mvn clean install -DskipTests=true'
+alias mcij='mvn clean install jib:dockerBuild'
