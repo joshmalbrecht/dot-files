@@ -17,6 +17,9 @@ fi
 unset env
 ### End of github SSH authentication ###
 
+### Java for Mac
+export JAVA_HOME=/path/to/java_installation
+
 ### Common Aliases ###
 alias q='exit'
 alias c='clear'
